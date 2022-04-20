@@ -236,7 +236,7 @@ MonoBehaviour:
   BulletHolePrefab: {fileID: 5704683788553113427, guid: 47515553f65a2624695093d261ea511b, type: 3}
   CanBeShot:
     serializedVersion: 2
-    m_Bits: 319
+    m_Bits: 831
 --- !u!1 &2750663878632489733
 GameObject:
   m_ObjectHideFlags: 0

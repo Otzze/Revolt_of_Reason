@@ -13,4 +13,5 @@ public class Gun : ScriptableObject
     public float aimSpeed;
     public float recoil;
     public float kickback;
+    public int damage;
 }

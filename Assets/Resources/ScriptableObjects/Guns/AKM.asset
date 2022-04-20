@@ -19,3 +19,4 @@ MonoBehaviour:
   aimSpeed: 15
   recoil: 7
   kickback: 0.08
+  damage: 500

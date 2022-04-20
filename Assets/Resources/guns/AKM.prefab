@@ -72,7 +72,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4218959964334954354}
   - component: {fileID: 8998210264762045320}
-  - component: {fileID: 3737090132988446872}
+  - component: {fileID: 6082429553704157702}
   m_Layer: 7
   m_Name: AKM
   m_TagString: Untagged
@@ -114,12 +114,11 @@ MonoBehaviour:
   Synchronization: 2
   OwnershipTransfer: 0
   observableSearch: 2
-  ObservedComponents:
-  - {fileID: 3737090132988446872}
+  ObservedComponents: []
   sceneViewId: 0
   InstantiationId: 0
   isRuntimeInstantiated: 0
---- !u!114 &3737090132988446872
+--- !u!114 &6082429553704157702
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -128,30 +127,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 2779695933929574376}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8efc6b1d64977384eb3405357896c656, type: 3}
+  m_Script: {fileID: 11500000, guid: 8d05d72384fed874caaf8c707c9d3e45, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_PositionModel:
-    SynchronizeEnabled: 0
-    TeleportEnabled: 1
-    TeleportIfDistanceGreaterThan: 3
-    InterpolateOption: 2
-    InterpolateMoveTowardsSpeed: 1
-    InterpolateLerpSpeed: 1
-    ExtrapolateOption: 0
-    ExtrapolateSpeed: 1
-    ExtrapolateIncludingRoundTripTime: 1
-    ExtrapolateNumberOfStoredPositions: 1
-  m_RotationModel:
-    SynchronizeEnabled: 1
-    InterpolateOption: 1
-    InterpolateRotateTowardsSpeed: 180
-    InterpolateLerpSpeed: 5
-  m_ScaleModel:
-    SynchronizeEnabled: 0
-    InterpolateOption: 0
-    InterpolateMoveTowardsSpeed: 1
-    InterpolateLerpSpeed: 0
+  intensity: 1
+  smooth: 10
 --- !u!1 &4144138933165599954
 GameObject:
   m_ObjectHideFlags: 0

@@ -67,7 +67,7 @@ public class Weapons : MonoBehaviourPunCallbacks
         GameObject t_newEquipment = Instantiate(loadout[p_ind].prefab, WeaponParent.position, WeaponParent.rotation, WeaponParent) as GameObject;
         t_newEquipment.transform.localPosition = Vector3.zero;
         t_newEquipment.transform.localEulerAngles = Vector3.zero;
-
+        t_newEquipment.GetComponent<Sway>().IsMine = photonView.IsMine;
         currentWeapon = t_newEquipment;
     }
 
@@ -107,11 +107,16 @@ public class Weapons : MonoBehaviourPunCallbacks
             Destroy(t_newhole, 5f);
 
 
-            /*on peut implémenter ici si le player shoot un ennemi avec la bonne layer
+            //dealing damages
             if (photonView.IsMine)
             {
-                if (t_hit.collider.gameObject.layer == 6)
-            }*/
+                if (t_hit.collider.transform.tag == "enemy")
+                {
+                    Debug.Log("HitEnemy");
+                    ennemi ennemiScript = t_hit.transform.GetComponent<ennemi>();
+                    ennemiScript.Damage(loadout[currentIndex].damage);
+                }
+            }
         }
 
         //recoil
