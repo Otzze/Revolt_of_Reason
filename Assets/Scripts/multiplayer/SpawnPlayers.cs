@@ -10,12 +10,19 @@ public class SpawnPlayers : MonoBehaviour
     public float minZ;
     public float maxX;
     public float maxZ;
-
+    public List<GameObject> PlayerObject;
+    public static SpawnPlayers Instance;
+    
+    public void Awake()
+    {
+        Instance = this;
+    }
+    
     private void Start()
     {
         Vector3 randomPosition = new Vector3(Random.Range(minX, maxX), 100, Random.Range(minZ, maxZ));
-        PhotonNetwork.Instantiate(playerPrefab.name, randomPosition, Quaternion.identity);
+        var player = PhotonNetwork.Instantiate(playerPrefab.name, randomPosition, Quaternion.identity);
         playerPrefab.GetComponent<Rigidbody>().mass = 1000;
-
+        Instance.PlayerObject.Add(player);
     }
 }
