@@ -24,9 +24,11 @@ public class ennemi : MonoBehaviourPunCallbacks
     }
 
     [PunRPC]
-    public void Damage(int p_damage)
+    public bool Damage(int p_damage)
     {
         health -= p_damage;
         Debug.Log(health);
+
+        return health <= 0;
     }
 }

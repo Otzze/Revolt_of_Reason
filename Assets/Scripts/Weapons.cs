@@ -21,6 +21,7 @@ public class Weapons : MonoBehaviourPunCallbacks
     //firerate
     private float CurrentCoolDown;
 
+
     // Start is called before the first frame update
     void Start()
     {
@@ -30,6 +31,8 @@ public class Weapons : MonoBehaviourPunCallbacks
     // Update is called once per frame
     void Update()
     {
+
+
         if (!photonView.IsMine)
             return;
 
@@ -52,6 +55,27 @@ public class Weapons : MonoBehaviourPunCallbacks
             //faire revenir l'arme à une position normale quoiqu'il arrive
             currentWeapon.transform.localPosition = Vector3.Lerp(currentWeapon.transform.localPosition, Vector3.zero, Time.deltaTime * 4f);
             currentWeapon.transform.localRotation = Quaternion.Lerp(currentWeapon.transform.localRotation, Quaternion.identity, Time.deltaTime * 4f);
+        }
+
+                
+        //si on scroll vers le haut 
+        if (Input.GetAxis("Mouse ScrollWheel") > 0f)
+        {
+            //prendre l'arme avant
+            if (currentIndex != loadout.Length - 1)
+            {
+                photonView.RPC("Equip", RpcTarget.All, currentIndex + 1);
+            }
+
+        }
+        else if (Input.GetAxis("Mouse ScrollWheel") < 0f)
+        {
+            //prendre l'arme après
+            if (currentIndex > 0)
+            {
+                photonView.RPC("Equip", RpcTarget.All, currentIndex - 1);
+            }
+                
         }
     }
 
@@ -114,7 +138,10 @@ public class Weapons : MonoBehaviourPunCallbacks
                 {
                     Debug.Log("HitEnemy");
                     ennemi ennemiScript = t_hit.transform.GetComponent<ennemi>();
-                    ennemiScript.Damage(loadout[currentIndex].damage);
+                    bool IsDead = ennemiScript.Damage(loadout[currentIndex].damage);
+
+                    if (IsDead)
+                        gameObject.GetComponent<PlayerMoney>().Money += 1000;
                 }
             }
         }
@@ -126,4 +153,6 @@ public class Weapons : MonoBehaviourPunCallbacks
         currentWeapon.transform.position -= currentWeapon.transform.forward * loadout[currentIndex].kickback;
         
     }
+
+
 }

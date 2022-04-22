@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63070de2bc49f50468a2d38d9b39de43, type: 3}
+  m_Name: Desert_Eagle
+  m_EditorClassIdentifier: 
+  name: Desert_Ealge
+  firerate: 1
+  cost: 50
+  prefab: {fileID: 2927492676276396695, guid: 978656bdb52314849b09a18f6d214510, type: 3}
+  aimSpeed: 10
+  recoil: 30
+  kickback: 1
+  damage: 1000
