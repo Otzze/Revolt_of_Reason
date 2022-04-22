@@ -27,6 +27,8 @@ public class PlayerScript : MonoBehaviourPunCallbacks
     [HideInInspector]
     public bool canMove = true;
 
+    public bool disabled = false;
+
     void Start()
     {
 
@@ -45,9 +47,9 @@ public class PlayerScript : MonoBehaviourPunCallbacks
     }
 
     void Update()
-    {
-        
+    {   
         if (!view.IsMine) return;
+        if (disabled) return;
         // We are grounded, so recalculate move direction based on axes
         Vector3 forward = transform.TransformDirection(Vector3.forward);
         Vector3 right = transform.TransformDirection(Vector3.right);

@@ -195,6 +195,7 @@ GameObject:
   - component: {fileID: 5196410843690772066}
   - component: {fileID: 8008100893759739935}
   - component: {fileID: -8274686774455548192}
+  - component: {fileID: 8645883203554942532}
   m_Layer: 6
   m_Name: Player
   m_TagString: Untagged
@@ -321,6 +322,7 @@ MonoBehaviour:
   cameraParent: {fileID: 2750663878632489733}
   Weapon: {fileID: 7352447938625554063}
   canMove: 1
+  disabled: 0
 --- !u!143 &2750663877608077809
 CharacterController:
   m_ObjectHideFlags: 0
@@ -442,6 +444,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Money: 1000
+--- !u!114 &8645883203554942532
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2750663877608077578}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f58772dc9dc33914a99ea339626b40fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2750663878632489733
 GameObject:
   m_ObjectHideFlags: 0
