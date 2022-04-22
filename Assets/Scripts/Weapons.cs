@@ -17,6 +17,7 @@ public class Weapons : MonoBehaviourPunCallbacks
 
     public GameObject BulletHolePrefab;
     public LayerMask CanBeShot;
+    public GameObject Compteur;
 
     //firerate
     private float CurrentCoolDown;
@@ -49,7 +50,7 @@ public class Weapons : MonoBehaviourPunCallbacks
             if (CurrentCoolDown > 0)
                 CurrentCoolDown -= Time.deltaTime;
 
-            //faire revenir l'arme à une position normale quoiqu'il arrive
+            //faire revenir l'arme ï¿½ une position normale quoiqu'il arrive
             currentWeapon.transform.localPosition = Vector3.Lerp(currentWeapon.transform.localPosition, Vector3.zero, Time.deltaTime * 4f);
             currentWeapon.transform.localRotation = Quaternion.Lerp(currentWeapon.transform.localRotation, Quaternion.identity, Time.deltaTime * 4f);
         }
@@ -115,6 +116,13 @@ public class Weapons : MonoBehaviourPunCallbacks
                     Debug.Log("HitEnemy");
                     ennemi ennemiScript = t_hit.transform.GetComponent<ennemi>();
                     ennemiScript.Damage(loadout[currentIndex].damage);
+                }
+
+                if (t_hit.collider.transform.tag == "cibles")
+                {
+                    t_hit.collider.gameObject.GetComponent<TargetScript>().AddTarget();
+                    Debug.Log("HitCibles");
+                    Destroy(t_hit.collider.gameObject);
                 }
             }
         }
