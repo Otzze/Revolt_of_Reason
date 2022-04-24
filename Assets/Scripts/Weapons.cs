@@ -12,6 +12,7 @@ public class Weapons : MonoBehaviourPunCallbacks
     public Transform WeaponParent;
     //currently equiped weapon
     private GameObject currentWeapon;
+    public GameObject Compteur;
 
     private int currentIndex;
 
@@ -52,7 +53,7 @@ public class Weapons : MonoBehaviourPunCallbacks
             if (CurrentCoolDown > 0)
                 CurrentCoolDown -= Time.deltaTime;
 
-            //faire revenir l'arme à une position normale quoiqu'il arrive
+            //faire revenir l'arme ï¿½ une position normale quoiqu'il arrive
             currentWeapon.transform.localPosition = Vector3.Lerp(currentWeapon.transform.localPosition, Vector3.zero, Time.deltaTime * 4f);
             currentWeapon.transform.localRotation = Quaternion.Lerp(currentWeapon.transform.localRotation, Quaternion.identity, Time.deltaTime * 4f);
         }
@@ -70,7 +71,7 @@ public class Weapons : MonoBehaviourPunCallbacks
         }
         else if (Input.GetAxis("Mouse ScrollWheel") < 0f)
         {
-            //prendre l'arme après
+            //prendre l'arme aprï¿½s
             if (currentIndex > 0)
             {
                 photonView.RPC("Equip", RpcTarget.All, currentIndex - 1);
@@ -142,6 +143,13 @@ public class Weapons : MonoBehaviourPunCallbacks
 
                     if (IsDead)
                         gameObject.GetComponent<PlayerMoney>().Money += 1000;
+                }
+
+                if (t_hit.collider.transform.tag == "cibles")
+                {
+                    t_hit.collider.gameObject.GetComponent<TargetScript>().AddTarget();
+                    Debug.Log("Hitcibles");
+                    Destroy(t_hit.collider.gameObject);
                 }
             }
         }

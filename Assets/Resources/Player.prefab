@@ -210,8 +210,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2750663877608077578}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 74, z: 54}
-  m_LocalScale: {x: 20.93681, y: 18.441746, z: 15.778741}
+  m_LocalPosition: {x: 254.64, y: 208.29, z: 36.392}
+  m_LocalScale: {x: 3.99914, y: 3.5225577, z: 3.0138972}
   m_Children:
   - {fileID: 2750663878632489728}
   - {fileID: 7352447938625554063}
@@ -411,6 +411,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 1be6af64cb9e50541b3d69b0745f6be3, type: 2}
   - {fileID: 11400000, guid: ad1b22950ba2fd54ea9e1937be117741, type: 2}
   WeaponParent: {fileID: 7352447938625554063}
+  Compteur: {fileID: 0}
   BulletHolePrefab: {fileID: 5704683788553113427, guid: 47515553f65a2624695093d261ea511b, type: 3}
   CanBeShot:
     serializedVersion: 2
@@ -472,7 +473,7 @@ Transform:
   m_GameObject: {fileID: 2750663878632489733}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0.5, z: 0}
-  m_LocalScale: {x: 0.5695989, y: 0.5111737, z: 0.7558008}
+  m_LocalScale: {x: 5, y: 4.5, z: 4.75}
   m_Children: []
   m_Father: {fileID: 2750663877608077814}
   m_RootOrder: 0

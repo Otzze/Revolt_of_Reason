@@ -13,7 +13,7 @@ public class SpawnPlayers : MonoBehaviour
 
     private void Start()
     {
-        Vector3 randomPosition = new Vector3(Random.Range(minX, maxX), 100, Random.Range(minZ, maxZ));
+        Vector3 randomPosition = new Vector3(Random.Range(minX, maxX), 7300, Random.Range(minZ, maxZ));
         PhotonNetwork.Instantiate(playerPrefab.name, randomPosition, Quaternion.identity);
         playerPrefab.GetComponent<Rigidbody>().mass = 1000;
 

@@ -1,8 +1,158 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="513b2c2d-1238-488b-be6b-5531f4916d17" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/MainPath.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/MainPath/CameraController.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/MainPath/CameraController.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/MainPath/ChangeSceneScript.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/MainPath/ChangeSceneScript.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/MainPath/Main Camera.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/MainPath/Main Camera.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/MainPath/Main.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/MainPath/Main.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/MainPath/QuitGame.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/MainPath/QuitGame.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/MainPath/ToLoading.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/MainPath/ToLoading.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/MainPath/ToSolo Variant.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/MainPath/ToSolo Variant.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/CompteurCible.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/CompteurCible.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/PNJ_script/NPCDestinqtion1.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/PNJ_script/NPCDestinqtion1.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/TargetScript.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/TargetScript.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Revolt_of_Reason/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Revolt_of_Reason/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Future_mobile_city/Materials/future_mobile_city.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Future_mobile_city/Materials/future_mobile_city.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Future_mobile_city/Materials/future_mobile_city.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Future_mobile_city/Materials/future_mobile_city.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Future_mobile_city/Models/future_mobile_city_buildings/future_mobile_city_building_1.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Future_mobile_city/Models/future_mobile_city_buildings/future_mobile_city_building_1.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Future_mobile_city/Models/future_mobile_city_buildings/future_mobile_city_building_10.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Future_mobile_city/Models/future_mobile_city_buildings/future_mobile_city_building_10.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Future_mobile_city/Models/future_mobile_city_buildings/future_mobile_city_building_11.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Future_mobile_city/Models/future_mobile_city_buildings/future_mobile_city_building_11.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Future_mobile_city/Models/future_mobile_city_buildings/future_mobile_city_building_12.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Future_mobile_city/Models/future_mobile_city_buildings/future_mobile_city_building_12.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Future_mobile_city/Models/future_mobile_city_buildings/future_mobile_city_building_13.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Future_mobile_city/Models/future_mobile_city_buildings/future_mobile_city_building_13.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Future_mobile_city/Models/future_mobile_city_buildings/future_mobile_city_building_14.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Future_mobile_city/Models/future_mobile_city_buildings/future_mobile_city_building_14.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Future_mobile_city/Models/future_mobile_city_buildings/future_mobile_city_building_15.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Future_mobile_city/Models/future_mobile_city_buildings/future_mobile_city_building_15.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Future_mobile_city/Models/future_mobile_city_buildings/future_mobile_city_building_16.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Future_mobile_city/Models/future_mobile_city_buildings/future_mobile_city_building_16.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Future_mobile_city/Models/future_mobile_city_buildings/future_mobile_city_building_17.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Future_mobile_city/Models/future_mobile_city_buildings/future_mobile_city_building_17.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Future_mobile_city/Models/future_mobile_city_buildings/future_mobile_city_building_18.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Future_mobile_city/Models/future_mobile_city_buildings/future_mobile_city_building_18.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Future_mobile_city/Models/future_mobile_city_buildings/future_mobile_city_building_19.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Future_mobile_city/Models/future_mobile_city_buildings/future_mobile_city_building_19.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Future_mobile_city/Models/future_mobile_city_buildings/future_mobile_city_building_2.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Future_mobile_city/Models/future_mobile_city_buildings/future_mobile_city_building_2.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Future_mobile_city/Models/future_mobile_city_buildings/future_mobile_city_building_20.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Future_mobile_city/Models/future_mobile_city_buildings/future_mobile_city_building_20.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Future_mobile_city/Models/future_mobile_city_buildings/future_mobile_city_building_21.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Future_mobile_city/Models/future_mobile_city_buildings/future_mobile_city_building_21.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Future_mobile_city/Models/future_mobile_city_buildings/future_mobile_city_building_23.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Future_mobile_city/Models/future_mobile_city_buildings/future_mobile_city_building_23.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Future_mobile_city/Models/future_mobile_city_buildings/future_mobile_city_building_24.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Future_mobile_city/Models/future_mobile_city_buildings/future_mobile_city_building_24.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Future_mobile_city/Models/future_mobile_city_buildings/future_mobile_city_building_26.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Future_mobile_city/Models/future_mobile_city_buildings/future_mobile_city_building_26.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Future_mobile_city/Models/future_mobile_city_buildings/future_mobile_city_building_3.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Future_mobile_city/Models/future_mobile_city_buildings/future_mobile_city_building_3.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Future_mobile_city/Models/future_mobile_city_buildings/future_mobile_city_building_4.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Future_mobile_city/Models/future_mobile_city_buildings/future_mobile_city_building_4.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Future_mobile_city/Models/future_mobile_city_buildings/future_mobile_city_building_5.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Future_mobile_city/Models/future_mobile_city_buildings/future_mobile_city_building_5.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Future_mobile_city/Models/future_mobile_city_buildings/future_mobile_city_building_6.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Future_mobile_city/Models/future_mobile_city_buildings/future_mobile_city_building_6.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Future_mobile_city/Models/future_mobile_city_buildings/future_mobile_city_building_7.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Future_mobile_city/Models/future_mobile_city_buildings/future_mobile_city_building_7.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Future_mobile_city/Models/future_mobile_city_buildings/future_mobile_city_building_8.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Future_mobile_city/Models/future_mobile_city_buildings/future_mobile_city_building_8.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Future_mobile_city/Models/future_mobile_city_buildings/future_mobile_city_building_9.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Future_mobile_city/Models/future_mobile_city_buildings/future_mobile_city_building_9.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Future_mobile_city/Models/future_mobile_city_props/future_mobile_city_prop_22.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Future_mobile_city/Models/future_mobile_city_props/future_mobile_city_prop_22.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Future_mobile_city/Models/future_mobile_city_props/future_mobile_city_prop_4.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Future_mobile_city/Models/future_mobile_city_props/future_mobile_city_prop_4.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Future_mobile_city/Models/future_mobile_city_props/future_mobile_city_road_24.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Future_mobile_city/Models/future_mobile_city_props/future_mobile_city_road_24.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Future_mobile_city/Prefabs/future_mobile_city_building/future_mobile_city_building_1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Future_mobile_city/Prefabs/future_mobile_city_building/future_mobile_city_building_1.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Future_mobile_city/Prefabs/future_mobile_city_building/future_mobile_city_building_1.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Future_mobile_city/Prefabs/future_mobile_city_building/future_mobile_city_building_1.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Future_mobile_city/Prefabs/future_mobile_city_building/future_mobile_city_building_10.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Future_mobile_city/Prefabs/future_mobile_city_building/future_mobile_city_building_10.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Future_mobile_city/Prefabs/future_mobile_city_building/future_mobile_city_building_10.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Future_mobile_city/Prefabs/future_mobile_city_building/future_mobile_city_building_10.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Future_mobile_city/Prefabs/future_mobile_city_building/future_mobile_city_building_11.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Future_mobile_city/Prefabs/future_mobile_city_building/future_mobile_city_building_11.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Future_mobile_city/Prefabs/future_mobile_city_building/future_mobile_city_building_11.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Future_mobile_city/Prefabs/future_mobile_city_building/future_mobile_city_building_11.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Future_mobile_city/Prefabs/future_mobile_city_building/future_mobile_city_building_12.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Future_mobile_city/Prefabs/future_mobile_city_building/future_mobile_city_building_12.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Future_mobile_city/Prefabs/future_mobile_city_building/future_mobile_city_building_12.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Future_mobile_city/Prefabs/future_mobile_city_building/future_mobile_city_building_12.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Future_mobile_city/Prefabs/future_mobile_city_building/future_mobile_city_building_13.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Future_mobile_city/Prefabs/future_mobile_city_building/future_mobile_city_building_13.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Future_mobile_city/Prefabs/future_mobile_city_building/future_mobile_city_building_13.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Future_mobile_city/Prefabs/future_mobile_city_building/future_mobile_city_building_13.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Future_mobile_city/Prefabs/future_mobile_city_building/future_mobile_city_building_14.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Future_mobile_city/Prefabs/future_mobile_city_building/future_mobile_city_building_14.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Future_mobile_city/Prefabs/future_mobile_city_building/future_mobile_city_building_14.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Future_mobile_city/Prefabs/future_mobile_city_building/future_mobile_city_building_14.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Future_mobile_city/Prefabs/future_mobile_city_building/future_mobile_city_building_15.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Future_mobile_city/Prefabs/future_mobile_city_building/future_mobile_city_building_15.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Future_mobile_city/Prefabs/future_mobile_city_building/future_mobile_city_building_15.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Future_mobile_city/Prefabs/future_mobile_city_building/future_mobile_city_building_15.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Future_mobile_city/Prefabs/future_mobile_city_building/future_mobile_city_building_16.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Future_mobile_city/Prefabs/future_mobile_city_building/future_mobile_city_building_16.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Future_mobile_city/Prefabs/future_mobile_city_building/future_mobile_city_building_16.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Future_mobile_city/Prefabs/future_mobile_city_building/future_mobile_city_building_16.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Future_mobile_city/Prefabs/future_mobile_city_building/future_mobile_city_building_18.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Future_mobile_city/Prefabs/future_mobile_city_building/future_mobile_city_building_18.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Future_mobile_city/Prefabs/future_mobile_city_building/future_mobile_city_building_18.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Future_mobile_city/Prefabs/future_mobile_city_building/future_mobile_city_building_18.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Future_mobile_city/Prefabs/future_mobile_city_building/future_mobile_city_building_19.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Future_mobile_city/Prefabs/future_mobile_city_building/future_mobile_city_building_19.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Future_mobile_city/Prefabs/future_mobile_city_building/future_mobile_city_building_19.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Future_mobile_city/Prefabs/future_mobile_city_building/future_mobile_city_building_19.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Future_mobile_city/Prefabs/future_mobile_city_building/future_mobile_city_building_2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Future_mobile_city/Prefabs/future_mobile_city_building/future_mobile_city_building_2.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Future_mobile_city/Prefabs/future_mobile_city_building/future_mobile_city_building_2.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Future_mobile_city/Prefabs/future_mobile_city_building/future_mobile_city_building_2.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Future_mobile_city/Prefabs/future_mobile_city_building/future_mobile_city_building_20.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Future_mobile_city/Prefabs/future_mobile_city_building/future_mobile_city_building_20.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Future_mobile_city/Prefabs/future_mobile_city_building/future_mobile_city_building_20.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Future_mobile_city/Prefabs/future_mobile_city_building/future_mobile_city_building_20.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Future_mobile_city/Prefabs/future_mobile_city_building/future_mobile_city_building_21.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Future_mobile_city/Prefabs/future_mobile_city_building/future_mobile_city_building_21.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Future_mobile_city/Prefabs/future_mobile_city_building/future_mobile_city_building_21.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Future_mobile_city/Prefabs/future_mobile_city_building/future_mobile_city_building_21.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Future_mobile_city/Prefabs/future_mobile_city_building/future_mobile_city_building_23.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Future_mobile_city/Prefabs/future_mobile_city_building/future_mobile_city_building_23.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Future_mobile_city/Prefabs/future_mobile_city_building/future_mobile_city_building_23.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Future_mobile_city/Prefabs/future_mobile_city_building/future_mobile_city_building_23.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Future_mobile_city/Prefabs/future_mobile_city_building/future_mobile_city_building_24.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Future_mobile_city/Prefabs/future_mobile_city_building/future_mobile_city_building_24.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Future_mobile_city/Prefabs/future_mobile_city_building/future_mobile_city_building_24.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Future_mobile_city/Prefabs/future_mobile_city_building/future_mobile_city_building_24.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Future_mobile_city/Prefabs/future_mobile_city_building/future_mobile_city_building_26.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Future_mobile_city/Prefabs/future_mobile_city_building/future_mobile_city_building_26.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Future_mobile_city/Prefabs/future_mobile_city_building/future_mobile_city_building_26.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Future_mobile_city/Prefabs/future_mobile_city_building/future_mobile_city_building_26.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Future_mobile_city/Prefabs/future_mobile_city_building/future_mobile_city_building_3.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Future_mobile_city/Prefabs/future_mobile_city_building/future_mobile_city_building_3.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Future_mobile_city/Prefabs/future_mobile_city_building/future_mobile_city_building_3.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Future_mobile_city/Prefabs/future_mobile_city_building/future_mobile_city_building_3.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Future_mobile_city/Prefabs/future_mobile_city_building/future_mobile_city_building_4.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Future_mobile_city/Prefabs/future_mobile_city_building/future_mobile_city_building_4.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Future_mobile_city/Prefabs/future_mobile_city_building/future_mobile_city_building_4.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Future_mobile_city/Prefabs/future_mobile_city_building/future_mobile_city_building_4.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Future_mobile_city/Prefabs/future_mobile_city_building/future_mobile_city_building_5.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Future_mobile_city/Prefabs/future_mobile_city_building/future_mobile_city_building_5.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Future_mobile_city/Prefabs/future_mobile_city_building/future_mobile_city_building_5.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Future_mobile_city/Prefabs/future_mobile_city_building/future_mobile_city_building_5.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Future_mobile_city/Prefabs/future_mobile_city_building/future_mobile_city_building_6.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Future_mobile_city/Prefabs/future_mobile_city_building/future_mobile_city_building_6.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Future_mobile_city/Prefabs/future_mobile_city_building/future_mobile_city_building_6.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Future_mobile_city/Prefabs/future_mobile_city_building/future_mobile_city_building_6.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Future_mobile_city/Prefabs/future_mobile_city_building/future_mobile_city_building_7.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Future_mobile_city/Prefabs/future_mobile_city_building/future_mobile_city_building_7.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Future_mobile_city/Prefabs/future_mobile_city_building/future_mobile_city_building_7.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Future_mobile_city/Prefabs/future_mobile_city_building/future_mobile_city_building_7.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Future_mobile_city/Prefabs/future_mobile_city_building/future_mobile_city_building_8.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Future_mobile_city/Prefabs/future_mobile_city_building/future_mobile_city_building_8.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Future_mobile_city/Prefabs/future_mobile_city_building/future_mobile_city_building_8.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Future_mobile_city/Prefabs/future_mobile_city_building/future_mobile_city_building_8.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Future_mobile_city/Prefabs/future_mobile_city_building/future_mobile_city_building_9.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Future_mobile_city/Prefabs/future_mobile_city_building/future_mobile_city_building_9.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Future_mobile_city/Prefabs/future_mobile_city_building/future_mobile_city_building_9.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Future_mobile_city/Prefabs/future_mobile_city_building/future_mobile_city_building_9.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Future_mobile_city/Prefabs/future_mobile_city_props/future_mobile_city_prop_22.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Future_mobile_city/Prefabs/future_mobile_city_props/future_mobile_city_prop_22.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Future_mobile_city/Prefabs/future_mobile_city_props/future_mobile_city_prop_22.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Future_mobile_city/Prefabs/future_mobile_city_props/future_mobile_city_prop_22.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Future_mobile_city/Prefabs/future_mobile_city_props/future_mobile_city_prop_4.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Future_mobile_city/Prefabs/future_mobile_city_props/future_mobile_city_prop_4.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Future_mobile_city/Prefabs/future_mobile_city_props/future_mobile_city_prop_4.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Future_mobile_city/Prefabs/future_mobile_city_props/future_mobile_city_prop_4.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Future_mobile_city/Prefabs/future_mobile_city_props/future_mobile_city_road_24.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Future_mobile_city/Prefabs/future_mobile_city_props/future_mobile_city_road_24.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Future_mobile_city/Prefabs/future_mobile_city_props/future_mobile_city_road_24.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Future_mobile_city/Prefabs/future_mobile_city_props/future_mobile_city_road_24.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Future_mobile_city/Textures/Future_mobile_city_albedo.tga.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Future_mobile_city/Textures/Future_mobile_city_albedo.tga.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Future_mobile_city/Textures/Future_mobile_city_emissive.tga.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Future_mobile_city/Textures/Future_mobile_city_emissive.tga.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PolygonBattleRoyale/Prefabs/Characters/Character_BusinessMale_01.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PolygonBattleRoyale/Prefabs/Characters/Character_BusinessMale_01.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/NPC/Walking.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/NPC/Walking/Pnj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/NPC/Walking/Pnj/Ch36_nonPBR@Running.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/NPC/Walking/Pnj/Ch36_nonPBR@Running.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/NPC/Walking/Pnj/Ch36_nonPBR@Terrified.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/NPC/Walking/Pnj/Ch36_nonPBR@Terrified.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/NPC/Walking/Pnj/Ch36_nonPBR@Walking (1).fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/NPC/Walking/Pnj/Ch36_nonPBR@Walking (1).fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/NPC/Walking/Pnj/NPC001.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/NPC/Walking/Pnj/NPC001.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/NPC/Walking/Pnj/Running.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/NPC/Walking/Pnj/Running.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/NPC/Walking/Pnj/Terrified.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/NPC/Walking/Pnj/Terrified.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/NPC/Walking/Pnj/Walking (1).anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/NPC/Walking/Pnj/Walking (1).anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/NPC/Walking/Pnj/textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/NPC/Walking/Pnj/textures/Ch36_1001_Diffuse.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/NPC/Walking/Pnj/textures/Ch36_1001_Diffuse.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/NPC/Walking/Pnj/textures/Ch36_1001_Glossiness.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/NPC/Walking/Pnj/textures/Ch36_1001_Glossiness.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/NPC/Walking/Pnj/textures/Ch36_1001_Normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/NPC/Walking/Pnj/textures/Ch36_1001_Normal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/NPC/Walking/Pnj/textures/Ch36_1001_Specular.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/NPC/Walking/Pnj/textures/Ch36_1001_Specular.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/NPCAll/NPC001.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/NPCAll/NPC001.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/PNJ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/PNJ/NPC001.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/PNJ/NPC001.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/PNJ/NPC001_Destination.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/PNJ/NPC001_Destination.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/PNJ/Walking.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/PNJ/Walking.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/TestDeScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/TestDeScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/TestDeScene/NavMesh.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/TestDeScene/NavMesh.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/TestDeScene/NavMesh.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/TestDeScene/NavMesh.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/NPCDestination.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PNJ_script/NPCDestination.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PNJ_script/NPCDestination.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Weapons.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Weapons.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/multiplayer/SpawnPlayers.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/multiplayer/SpawnPlayers.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,6 +161,10 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PNJ_script/NPCDestinqtion1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TargetScript.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -29,6 +183,10 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="rider.run.widget.enabled.cache" value="false" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -64,6 +222,10 @@
       <updated>1650124029670</updated>
       <workItem from="1650124040847" duration="614000" />
       <workItem from="1650543433476" duration="966000" />
+      <workItem from="1650632639261" duration="4803000" />
+      <workItem from="1650724555981" duration="10236000" />
+      <workItem from="1650822646872" duration="1441000" />
+      <workItem from="1650826282306" duration="2229000" />
     </task>
     <servers />
   </component>
@@ -83,6 +245,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />

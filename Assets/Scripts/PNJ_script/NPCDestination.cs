@@ -18,25 +18,25 @@ public class NPCDestination : MonoBehaviour
 
    if (trigNum == 3)
    {
-    this.gameObject.transform.position = new Vector3(1973, -27, 2243);
+    this.gameObject.transform.position = new Vector3(336, 7281, -8987);
     trigNum = 4;
    }
 
    if (trigNum == 2)
    {
-    this.gameObject.transform.position = new Vector3(4061, -18, 2191);
+    this.gameObject.transform.position = new Vector3(198, 7281, -8987);
     trigNum = 3;
    }
 
    if (trigNum == 1)
    {
-    this.gameObject.transform.position = new Vector3(4019, -11, -276);
+    this.gameObject.transform.position = new Vector3(198, 7281, -9235);
     trigNum = 2;
    }
 
    if (trigNum == 0)
    {
-    this.gameObject.transform.position = new Vector3(1929, -20, -321);
+    this.gameObject.transform.position = new Vector3(350, 7281, -9235);
     trigNum = 1;
    }
   }
