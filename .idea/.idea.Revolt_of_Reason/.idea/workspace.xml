@@ -2,7 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="513b2c2d-1238-488b-be6b-5531f4916d17" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Anim_Controller_State.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/animations/Looking.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/animations/Looking.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/animations/Walking.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/animations/Walking.anim.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Revolt_of_Reason/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Revolt_of_Reason/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Enemis/ennemi.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Enemis/ennemi.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/animations/Anim_Military.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/animations/Anim_Military.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/animations/Idle.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/animations/Idle.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/animations/Idle.anim.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/animations/Idle.anim.meta" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +74,8 @@
       <updated>1650124029670</updated>
       <workItem from="1650124040847" duration="614000" />
       <workItem from="1650543433476" duration="966000" />
+      <workItem from="1650638434810" duration="4311000" />
+      <workItem from="1650643965243" duration="458000" />
     </task>
     <servers />
   </component>
@@ -83,6 +95,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
